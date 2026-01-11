@@ -1,0 +1,15 @@
+{
+    "source_type": "local", 
+    "local_file_path": "data/sample.parquet", 
+
+    "adls_account": "YOUR_STORAGE_ACCOUNT",
+    "adls_key": "YOUR_ADLS_KEY",
+    "container": "YOUR_CONTAINER",
+    "file_path": "path/to/data.parquet",
+
+    "tg_ip": "tigergraph",
+    "tg_graph": "MyGraph",
+    "tg_load_job": "my_loading_job",
+    "tg_user": "tigergraph",
+    "tg_pass": "tigergraph"
+}

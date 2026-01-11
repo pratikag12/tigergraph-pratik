@@ -1,0 +1,24 @@
+version: "3.9"
+
+services:
+  spark:
+    build: .
+    image: spark-tg-local
+    container_name: spark-tg-local
+    working_dir: /workspace
+    volumes:
+      - ./:/workspace
+      - ./jars:/opt/spark/jars-extra
+    depends_on:
+      - tigergraph
+
+  tigergraph:
+    image: tigergraph/tigergraph:latest
+    container_name: tg-local
+    environment:
+      - ACCEPT_LICENSE=Y
+      - TIGERGRAPH_USER=tigergraph
+      - TIGERGRAPH_PASSWORD=tigergraph
+    ports:
+      - "14240:14240"
+      - "9000:9000"

@@ -1,0 +1,427 @@
+# Inventory Data Export - System B
+# Generated: 2026-01-11
+# Region: European Union
+# Type: Raw Inventory Dump
+
+version: "1.1"
+exported_by: "system_robot"
+record_count: 22
+
+items:
+  - id: "SYS-B-101"
+    name: "Module Beta-101"
+    description: "Advanced module for high-tech applications."
+    sku: "EU-SKU-112233-101"
+    category: "Robotics"
+    attributes:
+      weight_kg: 0.85
+      dimensions: "12x12x12"
+      material: "Composite"
+    inventory_status:
+      current_qty: 120
+      reorder_point: 30
+      max_limit: 500
+    storage_facility:
+      site_code: "WH-BER-05"
+      zone: "Robotics-Wing"
+      bin_number: 101
+    status: "available"
+
+  - id: "SYS-B-102"
+    name: "Module Beta-102"
+    description: "Advanced module for high-tech applications."
+    sku: "EU-SKU-112233-102"
+    category: "Robotics"
+    attributes:
+      weight_kg: 0.90
+      dimensions: "12x12x12"
+      material: "Composite"
+    inventory_status:
+      current_qty: 110
+      reorder_point: 30
+      max_limit: 500
+    storage_facility:
+      site_code: "WH-BER-05"
+      zone: "Robotics-Wing"
+      bin_number: 102
+    status: "available"
+
+  - id: "SYS-B-103"
+    name: "Module Beta-103"
+    description: "Advanced module for high-tech applications."
+    sku: "EU-SKU-112233-103"
+    category: "Robotics"
+    attributes:
+      weight_kg: 0.95
+      dimensions: "12x12x12"
+      material: "Composite"
+    inventory_status:
+      current_qty: 100
+      reorder_point: 30
+      max_limit: 500
+    storage_facility:
+      site_code: "WH-BER-05"
+      zone: "Robotics-Wing"
+      bin_number: 103
+    status: "backordered"
+
+  - id: "SYS-B-104"
+    name: "Module Beta-104"
+    description: "Advanced module for high-tech applications."
+    sku: "EU-SKU-112233-104"
+    category: "Robotics"
+    attributes:
+      weight_kg: 1.00
+      dimensions: "12x12x12"
+      material: "Composite"
+    inventory_status:
+      current_qty: 90
+      reorder_point: 30
+      max_limit: 500
+    storage_facility:
+      site_code: "WH-BER-05"
+      zone: "Robotics-Wing"
+      bin_number: 104
+    status: "available"
+
+  - id: "SYS-B-105"
+    name: "Module Beta-105"
+    description: "Advanced module for high-tech applications."
+    sku: "EU-SKU-112233-105"
+    category: "Robotics"
+    attributes:
+      weight_kg: 1.05
+      dimensions: "12x12x12"
+      material: "Composite"
+    inventory_status:
+      current_qty: 80
+      reorder_point: 30
+      max_limit: 500
+    storage_facility:
+      site_code: "WH-BER-05"
+      zone: "Robotics-Wing"
+      bin_number: 105
+    status: "available"
+
+  - id: "SYS-B-106"
+    name: "Module Beta-106"
+    description: "Advanced module for high-tech applications."
+    sku: "EU-SKU-112233-106"
+    category: "Automotive"
+    attributes:
+      weight_kg: 5.50
+      dimensions: "50x30x20"
+      material: "Aluminum Alloy"
+    inventory_status:
+      current_qty: 45
+      reorder_point: 10
+      max_limit: 200
+    storage_facility:
+      site_code: "WH-MUN-02"
+      zone: "Heavy-Parts"
+      bin_number: 206
+    status: "available"
+
+  - id: "SYS-B-107"
+    name: "Module Beta-107"
+    description: "Advanced module for high-tech applications."
+    sku: "EU-SKU-112233-107"
+    category: "Automotive"
+    attributes:
+      weight_kg: 5.60
+      dimensions: "50x30x20"
+      material: "Aluminum Alloy"
+    inventory_status:
+      current_qty: 40
+      reorder_point: 10
+      max_limit: 200
+    storage_facility:
+      site_code: "WH-MUN-02"
+      zone: "Heavy-Parts"
+      bin_number: 207
+    status: "review"
+
+  - id: "SYS-B-108"
+    name: "Module Beta-108"
+    description: "Advanced module for high-tech applications."
+    sku: "EU-SKU-112233-108"
+    category: "Automotive"
+    attributes:
+      weight_kg: 5.70
+      dimensions: "50x30x20"
+      material: "Aluminum Alloy"
+    inventory_status:
+      current_qty: 35
+      reorder_point: 10
+      max_limit: 200
+    storage_facility:
+      site_code: "WH-MUN-02"
+      zone: "Heavy-Parts"
+      bin_number: 208
+    status: "available"
+
+  - id: "SYS-B-109"
+    name: "Module Beta-109"
+    description: "Advanced module for high-tech applications."
+    sku: "EU-SKU-112233-109"
+    category: "Automotive"
+    attributes:
+      weight_kg: 5.80
+      dimensions: "50x30x20"
+      material: "Aluminum Alloy"
+    inventory_status:
+      current_qty: 30
+      reorder_point: 10
+      max_limit: 200
+    storage_facility:
+      site_code: "WH-MUN-02"
+      zone: "Heavy-Parts"
+      bin_number: 209
+    status: "available"
+
+  - id: "SYS-B-110"
+    name: "Module Beta-110"
+    description: "Advanced module for high-tech applications."
+    sku: "EU-SKU-112233-110"
+    category: "Automotive"
+    attributes:
+      weight_kg: 5.90
+      dimensions: "50x30x20"
+      material: "Aluminum Alloy"
+    inventory_status:
+      current_qty: 25
+      reorder_point: 10
+      max_limit: 200
+    storage_facility:
+      site_code: "WH-MUN-02"
+      zone: "Heavy-Parts"
+      bin_number: 210
+    status: "low_stock"
+
+  - id: "SYS-B-111"
+    name: "Module Beta-111"
+    description: "Advanced module for high-tech applications."
+    sku: "EU-SKU-112233-111"
+    category: "Medical"
+    attributes:
+      weight_kg: 0.12
+      dimensions: "2x2x5"
+      material: "Medical Grade Plastic"
+    inventory_status:
+      current_qty: 5000
+      reorder_point: 500
+      max_limit: 10000
+    storage_facility:
+      site_code: "WH-ZUR-09"
+      zone: "Clean Room"
+      bin_number: 311
+    status: "available"
+
+  - id: "SYS-B-112"
+    name: "Module Beta-112"
+    description: "Advanced module for high-tech applications."
+    sku: "EU-SKU-112233-112"
+    category: "Medical"
+    attributes:
+      weight_kg: 0.13
+      dimensions: "2x2x5"
+      material: "Medical Grade Plastic"
+    inventory_status:
+      current_qty: 4800
+      reorder_point: 500
+      max_limit: 10000
+    storage_facility:
+      site_code: "WH-ZUR-09"
+      zone: "Clean Room"
+      bin_number: 312
+    status: "available"
+
+  - id: "SYS-B-113"
+    name: "Module Beta-113"
+    description: "Advanced module for high-tech applications."
+    sku: "EU-SKU-112233-113"
+    category: "Medical"
+    attributes:
+      weight_kg: 0.14
+      dimensions: "2x2x5"
+      material: "Medical Grade Plastic"
+    inventory_status:
+      current_qty: 4600
+      reorder_point: 500
+      max_limit: 10000
+    storage_facility:
+      site_code: "WH-ZUR-09"
+      zone: "Clean Room"
+      bin_number: 313
+    status: "available"
+
+  - id: "SYS-B-114"
+    name: "Module Beta-114"
+    description: "Advanced module for high-tech applications."
+    sku: "EU-SKU-112233-114"
+    category: "Medical"
+    attributes:
+      weight_kg: 0.15
+      dimensions: "2x2x5"
+      material: "Medical Grade Plastic"
+    inventory_status:
+      current_qty: 4400
+      reorder_point: 500
+      max_limit: 10000
+    storage_facility:
+      site_code: "WH-ZUR-09"
+      zone: "Clean Room"
+      bin_number: 314
+    status: "available"
+
+  - id: "SYS-B-115"
+    name: "Module Beta-115"
+    description: "Advanced module for high-tech applications."
+    sku: "EU-SKU-112233-115"
+    category: "Medical"
+    attributes:
+      weight_kg: 0.16
+      dimensions: "2x2x5"
+      material: "Medical Grade Plastic"
+    inventory_status:
+      current_qty: 4200
+      reorder_point: 500
+      max_limit: 10000
+    storage_facility:
+      site_code: "WH-ZUR-09"
+      zone: "Clean Room"
+      bin_number: 315
+    status: "available"
+
+  - id: "SYS-B-116"
+    name: "Module Beta-116"
+    description: "Advanced module for high-tech applications."
+    sku: "EU-SKU-112233-116"
+    category: "Medical"
+    attributes:
+      weight_kg: 0.17
+      dimensions: "2x2x5"
+      material: "Medical Grade Plastic"
+    inventory_status:
+      current_qty: 4000
+      reorder_point: 500
+      max_limit: 10000
+    storage_facility:
+      site_code: "WH-ZUR-09"
+      zone: "Clean Room"
+      bin_number: 316
+    status: "available"
+
+  - id: "SYS-B-117"
+    name: "Module Beta-117"
+    description: "Advanced module for high-tech applications."
+    sku: "EU-SKU-112233-117"
+    category: "Medical"
+    attributes:
+      weight_kg: 0.18
+      dimensions: "2x2x5"
+      material: "Medical Grade Plastic"
+    inventory_status:
+      current_qty: 3800
+      reorder_point: 500
+      max_limit: 10000
+    storage_facility:
+      site_code: "WH-ZUR-09"
+      zone: "Clean Room"
+      bin_number: 317
+    status: "available"
+
+  - id: "SYS-B-118"
+    name: "Module Beta-118"
+    description: "Advanced module for high-tech applications."
+    sku: "EU-SKU-112233-118"
+    category: "Medical"
+    attributes:
+      weight_kg: 0.19
+      dimensions: "2x2x5"
+      material: "Medical Grade Plastic"
+    inventory_status:
+      current_qty: 3600
+      reorder_point: 500
+      max_limit: 10000
+    storage_facility:
+      site_code: "WH-ZUR-09"
+      zone: "Clean Room"
+      bin_number: 318
+    status: "available"
+
+  - id: "SYS-B-119"
+    name: "Module Beta-119"
+    description: "Advanced module for high-tech applications."
+    sku: "EU-SKU-112233-119"
+    category: "Medical"
+    attributes:
+      weight_kg: 0.20
+      dimensions: "2x2x5"
+      material: "Medical Grade Plastic"
+    inventory_status:
+      current_qty: 3400
+      reorder_point: 500
+      max_limit: 10000
+    storage_facility:
+      site_code: "WH-ZUR-09"
+      zone: "Clean Room"
+      bin_number: 319
+    status: "available"
+
+  - id: "SYS-B-120"
+    name: "Module Beta-120"
+    description: "Advanced module for high-tech applications."
+    sku: "EU-SKU-112233-120"
+    category: "Medical"
+    attributes:
+      weight_kg: 0.21
+      dimensions: "2x2x5"
+      material: "Medical Grade Plastic"
+    inventory_status:
+      current_qty: 3200
+      reorder_point: 500
+      max_limit: 10000
+    storage_facility:
+      site_code: "WH-ZUR-09"
+      zone: "Clean Room"
+      bin_number: 320
+    status: "available"
+
+  - id: "SYS-B-121"
+    name: "Module Beta-121"
+    description: "Advanced module for high-tech applications."
+    sku: "EU-SKU-112233-121"
+    category: "Chemical"
+    attributes:
+      weight_kg: 25.0
+      dimensions: "Drum-50L"
+      material: "Solvent"
+    inventory_status:
+      current_qty: 60
+      reorder_point: 15
+      max_limit: 200
+    storage_facility:
+      site_code: "WH-ROT-04"
+      zone: "Hazmat"
+      bin_number: 901
+    status: "available"
+
+  - id: "SYS-B-122"
+    name: "Module Beta-122"
+    description: "Advanced module for high-tech applications."
+    sku: "EU-SKU-112233-122"
+    category: "Chemical"
+    attributes:
+      weight_kg: 25.0
+      dimensions: "Drum-50L"
+      material: "Solvent"
+    inventory_status:
+      current_qty: 55
+      reorder_point: 15
+      max_limit: 200
+    storage_facility:
+      site_code: "WH-ROT-04"
+      zone: "Hazmat"
+      bin_number: 902
+    status: "available"

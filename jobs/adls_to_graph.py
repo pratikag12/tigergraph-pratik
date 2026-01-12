@@ -78,6 +78,8 @@ def main():
         "loading.eol": "\n",
     }
 
+    print("Writing DataFrame to TigerGraph...Branch_A")
+
     (
         df.write.format("tigergraph")
         .options(**connector_options)

@@ -52,18 +52,30 @@ def main():
     df.show(20, truncate=False)  # show up to 20 rows, full columns
 
     # 3. Write to TigerGraph
+    # 3. Write to TigerGraph via loading job mode
+    # NOTE: these option keys follow the TigerGraph Spark connector (0.2.x) API.
+    # Using "loading.job" tells the connector this is a write (loading job),
+    # not a read/query, so it will not require any query.* options.
     connector_options = {
-        # TigerGraph connection
+        # TigerGraph connection: use the GSQL/REST proxy port (14240)
+        # where the Spark connector expects the /restpp/ddl endpoint.
         "url": f"http://{conf['tg_ip']}:14240",
         "username": conf["tg_user"],
         "password": conf["tg_pass"],
 
-        # Connector metadata
-        "version": "0.2.4",          # matches your JAR version
+        # TigerGraph server version
+        # Using "4.1.0" as a safe baseline for 'latest' images to enable newer features if needed
+        "version": "4.1.0",
+
+        # Target graph and loading job
         "graph": conf["tg_graph"],
-        "loadingJobName": conf["tg_load_job"],
-        "queryType": "query.installed",
-        "query": conf["tg_load_job"],
+        "loading.job": conf["tg_load_job"],  # matches CREATE LOADING JOB name
+        "loading.filename": "f",             # matches DEFINE FILENAME f in create_tg_schema
+
+        # Match the USING clause in the loading job (defaults are "," and "\n" but we
+        # set them explicitly for clarity)
+        "loading.separator": ",",
+        "loading.eol": "\n",
     }
 
     (

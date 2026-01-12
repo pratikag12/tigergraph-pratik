@@ -21,30 +21,6 @@ def main():
 
     df.write.mode("overwrite").parquet(str(out_path))
 
-    connector_options = {
-        # Basic connection
-        "url": f"http://{conf['tg_ip']}:14240",
-        "username": conf["tg_user"],
-        "password": conf["tg_pass"],
-        "version": "0.2.4",
-
-        # Target graph / loading job
-        "graph": conf["tg_graph"],
-        "loadingJobName": conf["tg_load_job"],
-
-        # IMPORTANT: use loading job mode instead of query mode
-        # and turn off queryType / query so the connector doesn't expect a query.
-        "batchSize": "1000",
-        "debug": "true",
-    }
-
-    (
-        df.write.format("tigergraph")
-        .options(**connector_options)
-        .mode("append")
-        .save()
-    )
-
     spark.stop()
 
 

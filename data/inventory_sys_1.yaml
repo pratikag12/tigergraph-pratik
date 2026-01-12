@@ -1,0 +1,389 @@
+# Inventory Data Export - System A
+# Generated: 2026-01-11
+# Region: North America
+# Type: Raw Inventory Dump
+
+version: "1.0"
+exported_by: "system_admin"
+record_count: 20
+
+items:
+  - id: "SYS-A-001"
+    name: "Component Alpha-001"
+    description: "Standard industrial component for machinery."
+    sku: "SKU-998877-001"
+    category: "Industrial"
+    attributes:
+      weight_kg: 1.25
+      dimensions: "10x20x5"
+      material: "Steel"
+    stock:
+      quantity: 450
+      min_threshold: 50
+      max_capacity: 1000
+    location:
+      warehouse: "WH-NYC-01"
+      aisle: 4
+      shelf: "B"
+    status: "active"
+
+  - id: "SYS-A-002"
+    name: "Component Alpha-002"
+    description: "Standard industrial component for machinery."
+    sku: "SKU-998877-002"
+    category: "Industrial"
+    attributes:
+      weight_kg: 1.35
+      dimensions: "10x20x5"
+      material: "Steel"
+    stock:
+      quantity: 420
+      min_threshold: 50
+      max_capacity: 1000
+    location:
+      warehouse: "WH-NYC-01"
+      aisle: 4
+      shelf: "B"
+    status: "active"
+
+  - id: "SYS-A-003"
+    name: "Component Alpha-003"
+    description: "Standard industrial component for machinery."
+    sku: "SKU-998877-003"
+    category: "Industrial"
+    attributes:
+      weight_kg: 1.45
+      dimensions: "10x20x5"
+      material: "Steel"
+    stock:
+      quantity: 390
+      min_threshold: 50
+      max_capacity: 1000
+    location:
+      warehouse: "WH-NYC-01"
+      aisle: 4
+      shelf: "B"
+    status: "maintenance"
+
+  - id: "SYS-A-004"
+    name: "Component Alpha-004"
+    description: "Standard industrial component for machinery."
+    sku: "SKU-998877-004"
+    category: "Industrial"
+    attributes:
+      weight_kg: 1.55
+      dimensions: "10x20x5"
+      material: "Steel"
+    stock:
+      quantity: 360
+      min_threshold: 50
+      max_capacity: 1000
+    location:
+      warehouse: "WH-NYC-01"
+      aisle: 4
+      shelf: "B"
+    status: "active"
+
+  - id: "SYS-A-005"
+    name: "Component Alpha-005"
+    description: "Standard industrial component for machinery."
+    sku: "SKU-998877-005"
+    category: "Industrial"
+    attributes:
+      weight_kg: 1.65
+      dimensions: "10x20x5"
+      material: "Steel"
+    stock:
+      quantity: 330
+      min_threshold: 50
+      max_capacity: 1000
+    location:
+      warehouse: "WH-NYC-01"
+      aisle: 4
+      shelf: "B"
+    status: "active"
+
+  - id: "SYS-A-006"
+    name: "Component Alpha-006"
+    description: "Standard industrial component for machinery."
+    sku: "SKU-998877-006"
+    category: "Industrial"
+    attributes:
+      weight_kg: 1.75
+      dimensions: "10x20x5"
+      material: "Steel"
+    stock:
+      quantity: 300
+      min_threshold: 50
+      max_capacity: 1000
+    location:
+      warehouse: "WH-NYC-01"
+      aisle: 4
+      shelf: "B"
+    status: "active"
+
+  - id: "SYS-A-007"
+    name: "Component Alpha-007"
+    description: "Standard industrial component for machinery."
+    sku: "SKU-998877-007"
+    category: "Industrial"
+    attributes:
+      weight_kg: 1.85
+      dimensions: "10x20x5"
+      material: "Steel"
+    stock:
+      quantity: 270
+      min_threshold: 50
+      max_capacity: 1000
+    location:
+      warehouse: "WH-NYC-01"
+      aisle: 4
+      shelf: "B"
+    status: "low_stock"
+
+  - id: "SYS-A-008"
+    name: "Component Alpha-008"
+    description: "Standard industrial component for machinery."
+    sku: "SKU-998877-008"
+    category: "Industrial"
+    attributes:
+      weight_kg: 1.95
+      dimensions: "10x20x5"
+      material: "Steel"
+    stock:
+      quantity: 240
+      min_threshold: 50
+      max_capacity: 1000
+    location:
+      warehouse: "WH-NYC-01"
+      aisle: 4
+      shelf: "B"
+    status: "active"
+
+  - id: "SYS-A-009"
+    name: "Component Alpha-009"
+    description: "Standard industrial component for machinery."
+    sku: "SKU-998877-009"
+    category: "Industrial"
+    attributes:
+      weight_kg: 2.05
+      dimensions: "10x20x5"
+      material: "Steel"
+    stock:
+      quantity: 210
+      min_threshold: 50
+      max_capacity: 1000
+    location:
+      warehouse: "WH-NYC-01"
+      aisle: 5
+      shelf: "A"
+    status: "active"
+
+  - id: "SYS-A-010"
+    name: "Component Alpha-010"
+    description: "Standard industrial component for machinery."
+    sku: "SKU-998877-010"
+    category: "Industrial"
+    attributes:
+      weight_kg: 2.15
+      dimensions: "10x20x5"
+      material: "Aluminum"
+    stock:
+      quantity: 180
+      min_threshold: 50
+      max_capacity: 1000
+    location:
+      warehouse: "WH-NYC-01"
+      aisle: 5
+      shelf: "A"
+    status: "active"
+
+  - id: "SYS-A-011"
+    name: "Component Alpha-011"
+    description: "Standard industrial component for machinery."
+    sku: "SKU-998877-011"
+    category: "Electronics"
+    attributes:
+      weight_kg: 0.55
+      dimensions: "5x5x2"
+      material: "Silicon"
+    stock:
+      quantity: 1500
+      min_threshold: 100
+      max_capacity: 5000
+    location:
+      warehouse: "WH-SF-02"
+      aisle: 1
+      shelf: "C"
+    status: "active"
+
+  - id: "SYS-A-012"
+    name: "Component Alpha-012"
+    description: "Standard industrial component for machinery."
+    sku: "SKU-998877-012"
+    category: "Electronics"
+    attributes:
+      weight_kg: 0.45
+      dimensions: "5x5x2"
+      material: "Silicon"
+    stock:
+      quantity: 1400
+      min_threshold: 100
+      max_capacity: 5000
+    location:
+      warehouse: "WH-SF-02"
+      aisle: 1
+      shelf: "C"
+    status: "active"
+
+  - id: "SYS-A-013"
+    name: "Component Alpha-013"
+    description: "Standard industrial component for machinery."
+    sku: "SKU-998877-013"
+    category: "Electronics"
+    attributes:
+      weight_kg: 0.35
+      dimensions: "5x5x2"
+      material: "Silicon"
+    stock:
+      quantity: 1300
+      min_threshold: 100
+      max_capacity: 5000
+    location:
+      warehouse: "WH-SF-02"
+      aisle: 1
+      shelf: "C"
+    status: "active"
+
+  - id: "SYS-A-014"
+    name: "Component Alpha-014"
+    description: "Standard industrial component for machinery."
+    sku: "SKU-998877-014"
+    category: "Electronics"
+    attributes:
+      weight_kg: 0.25
+      dimensions: "5x5x2"
+      material: "Silicon"
+    stock:
+      quantity: 1200
+      min_threshold: 100
+      max_capacity: 5000
+    location:
+      warehouse: "WH-SF-02"
+      aisle: 1
+      shelf: "C"
+    status: "active"
+
+  - id: "SYS-A-015"
+    name: "Component Alpha-015"
+    description: "Standard industrial component for machinery."
+    sku: "SKU-998877-015"
+    category: "Electronics"
+    attributes:
+      weight_kg: 0.15
+      dimensions: "5x5x2"
+      material: "Silicon"
+    stock:
+      quantity: 1100
+      min_threshold: 100
+      max_capacity: 5000
+    location:
+      warehouse: "WH-SF-02"
+      aisle: 1
+      shelf: "C"
+    status: "active"
+
+  - id: "SYS-A-016"
+    name: "Component Alpha-016"
+    description: "Standard industrial component for machinery."
+    sku: "SKU-998877-016"
+    category: "Consumer"
+    attributes:
+      weight_kg: 1.05
+      dimensions: "15x15x10"
+      material: "Plastic"
+    stock:
+      quantity: 500
+      min_threshold: 20
+      max_capacity: 2000
+    location:
+      warehouse: "WH-CHI-03"
+      aisle: 9
+      shelf: "Z"
+    status: "active"
+
+  - id: "SYS-A-017"
+    name: "Component Alpha-017"
+    description: "Standard industrial component for machinery."
+    sku: "SKU-998877-017"
+    category: "Consumer"
+    attributes:
+      weight_kg: 1.15
+      dimensions: "15x15x10"
+      material: "Plastic"
+    stock:
+      quantity: 480
+      min_threshold: 20
+      max_capacity: 2000
+    location:
+      warehouse: "WH-CHI-03"
+      aisle: 9
+      shelf: "Z"
+    status: "active"
+
+  - id: "SYS-A-018"
+    name: "Component Alpha-018"
+    description: "Standard industrial component for machinery."
+    sku: "SKU-998877-018"
+    category: "Consumer"
+    attributes:
+      weight_kg: 1.25
+      dimensions: "15x15x10"
+      material: "Plastic"
+    stock:
+      quantity: 460
+      min_threshold: 20
+      max_capacity: 2000
+    location:
+      warehouse: "WH-CHI-03"
+      aisle: 9
+      shelf: "Z"
+    status: "on_hold"
+
+  - id: "SYS-A-019"
+    name: "Component Alpha-019"
+    description: "Standard industrial component for machinery."
+    sku: "SKU-998877-019"
+    category: "Consumer"
+    attributes:
+      weight_kg: 1.35
+      dimensions: "15x15x10"
+      material: "Plastic"
+    stock:
+      quantity: 440
+      min_threshold: 20
+      max_capacity: 2000
+    location:
+      warehouse: "WH-CHI-03"
+      aisle: 9
+      shelf: "Z"
+    status: "active"
+
+  - id: "SYS-A-020"
+    name: "Component Alpha-020"
+    description: "Standard industrial component for machinery."
+    sku: "SKU-998877-020"
+    category: "Consumer"
+    attributes:
+      weight_kg: 1.45
+      dimensions: "15x15x10"
+      material: "Plastic"
+    stock:
+      quantity: 420
+      min_threshold: 20
+      max_capacity: 2000
+    location:
+      warehouse: "WH-CHI-03"
+      aisle: 9
+      shelf: "Z"
+    status: "active"
